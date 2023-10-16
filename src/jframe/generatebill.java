@@ -84,7 +84,7 @@ public class generatebill extends JFrame implements ActionListener{
              pst.setString(1, meter);
              
              ResultSet rs= (ResultSet) pst.executeQuery();
-          
+             //comment
             
            
             if(rs.next()) {
